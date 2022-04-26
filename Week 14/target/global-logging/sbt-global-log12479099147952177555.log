@@ -1,0 +1,38 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file /Users/jarmijo/Documents/ITA/ITA/Week 14/project/build.properties: set sbt.version to 1.5.8
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (Oracle Corporation Java 17.0.2)
+[debug] Load.defaultLoad until apply took 447.489609ms
+[debug]           Load.loadUnit: plugins took 76.36545ms
+[debug]           Load.loadUnit: defsScala took 0.368938ms
+[debug] [Loading] Scanning directory /Users/jarmijo/Documents/ITA/ITA/Week 14/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jarmijo/Documents/ITA/ITA/Week 14/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 19.399502 ms
+[debug]               Load.resolveProject(week-14-build) took 49.192353ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id week-14-build, base: /Users/jarmijo/Documents/ITA/ITA/Week 14/project, plugins: List(<none>))) took 91.866663ms
+[debug] [Loading] Done in /Users/jarmijo/Documents/ITA/ITA/Week 14/project, returning: (week-14-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 115.303709ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.253037ms
+[debug]         Load.loadUnit(file:/Users/jarmijo/Documents/ITA/ITA/Week%2014/project/, ...) took 198.945032ms

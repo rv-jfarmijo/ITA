@@ -1,0 +1,26 @@
+id,first_name,height_feet,height_inches,last_name,position,team,weight_pounds
+666713,Romeo,,,Langford,G,"{'id': 27, 'abbreviation': 'SAS', 'city': 'San Antonio', 'conference': 'West', 'division': 'Southwest', 'full_name': 'San Antonio Spurs', 'name': 'Spurs'}",
+666729,Nassir,,,Little,F,"{'id': 25, 'abbreviation': 'POR', 'city': 'Portland', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Portland Trail Blazers', 'name': 'Trail Blazers'}",
+666818,Chuma,,,Okeke,F,"{'id': 22, 'abbreviation': 'ORL', 'city': 'Orlando', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Orlando Magic', 'name': 'Magic'}",
+666821,KZ,,,Okpala,F,"{'id': 21, 'abbreviation': 'OKC', 'city': 'Oklahoma City', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Oklahoma City Thunder', 'name': 'Thunder'}",
+666849,Kevin,,,Porter Jr.,G,"{'id': 11, 'abbreviation': 'HOU', 'city': 'Houston', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Houston Rockets', 'name': 'Rockets'}",
+666608,Kyle,,,Guy,G,"{'id': 16, 'abbreviation': 'MIA', 'city': 'Miami', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Miami Heat', 'name': 'Heat'}",
+666881,Luka,,,Samanic,F,"{'id': 20, 'abbreviation': 'NYK', 'city': 'New York', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'New York Knicks', 'name': 'Knicks'}",
+666923,Matisse,,,Thybulle,G-F,"{'id': 23, 'abbreviation': 'PHI', 'city': 'Philadelphia', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Philadelphia 76ers', 'name': '76ers'}",
+3547215,Killian,,,Tillie,F-C,"{'id': 15, 'abbreviation': 'MEM', 'city': 'Memphis', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Memphis Grizzlies', 'name': 'Grizzlies'}",
+666953,Quinndary,,,Weatherspoon,G,"{'id': 10, 'abbreviation': 'GSW', 'city': 'Golden State', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Golden State Warriors', 'name': 'Warriors'}",
+666965,Grant,,,Williams,F,"{'id': 2, 'abbreviation': 'BOS', 'city': 'Boston', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Boston Celtics', 'name': 'Celtics'}",
+666952,Tremont,,,Waters,G,"{'id': 30, 'abbreviation': 'WAS', 'city': 'Washington', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Washington Wizards', 'name': 'Wizards'}",
+666971,Dylan,,,Windler,G-F,"{'id': 6, 'abbreviation': 'CLE', 'city': 'Cleveland', 'conference': 'East', 'division': 'Central', 'full_name': 'Cleveland Cavaliers', 'name': 'Cavaliers'}",
+666641,Jaylen,,,Hoard,F,"{'id': 21, 'abbreviation': 'OKC', 'city': 'Oklahoma City', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Oklahoma City Thunder', 'name': 'Thunder'}",
+9051997,Armoni,,,Brooks,G,"{'id': 28, 'abbreviation': 'TOR', 'city': 'Toronto', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Toronto Raptors', 'name': 'Raptors'}",
+17895875,Aric,,,Holman,C,"{'id': 16, 'abbreviation': 'MIA', 'city': 'Miami', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Miami Heat', 'name': 'Heat'}",
+666930,Rayjon,,,Tucker,F,"{'id': 8, 'abbreviation': 'DEN', 'city': 'Denver', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Denver Nuggets', 'name': 'Nuggets'}",
+1687493,Matt,,,Mooney,G,"{'id': 20, 'abbreviation': 'NYK', 'city': 'New York', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'New York Knicks', 'name': 'Knicks'}",
+81,Kentavious,6.0,5.0,Caldwell-Pope,G,"{'id': 30, 'abbreviation': 'WAS', 'city': 'Washington', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Washington Wizards', 'name': 'Wizards'}",205.0
+371,Mason,6.0,11.0,Plumlee,F-C,"{'id': 4, 'abbreviation': 'CHA', 'city': 'Charlotte', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Charlotte Hornets', 'name': 'Hornets'}",235.0
+337,Mike,6.0,11.0,Muscala,F-C,"{'id': 21, 'abbreviation': 'OKC', 'city': 'Oklahoma City', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Oklahoma City Thunder', 'name': 'Thunder'}",240.0
+376,Otto,6.0,8.0,Porter Jr.,F,"{'id': 10, 'abbreviation': 'GSW', 'city': 'Golden State', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Golden State Warriors', 'name': 'Warriors'}",198.0
+75,Reggie,6.0,7.0,Bullock,G-F,"{'id': 7, 'abbreviation': 'DAL', 'city': 'Dallas', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Dallas Mavericks', 'name': 'Mavericks'}",205.0
+379,Dwight,6.0,11.0,Powell,F-C,"{'id': 7, 'abbreviation': 'DAL', 'city': 'Dallas', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Dallas Mavericks', 'name': 'Mavericks'}",240.0
+387,Julius,6.0,9.0,Randle,F,"{'id': 20, 'abbreviation': 'NYK', 'city': 'New York', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'New York Knicks', 'name': 'Knicks'}",250.0

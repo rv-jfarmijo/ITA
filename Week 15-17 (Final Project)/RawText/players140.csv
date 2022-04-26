@@ -1,0 +1,26 @@
+id,first_name,height_feet,height_inches,last_name,position,team,weight_pounds
+3091,Brandon,6.0,2.0,Goodwin,,"{'id': 6, 'abbreviation': 'CLE', 'city': 'Cleveland', 'conference': 'East', 'division': 'Central', 'full_name': 'Cleveland Cavaliers', 'name': 'Cavaliers'}",180.0
+3547281,Nate,,,Hinton,G-F,"{'id': 12, 'abbreviation': 'IND', 'city': 'Indiana', 'conference': 'East', 'division': 'Central', 'full_name': 'Indiana Pacers', 'name': 'Pacers'}",
+329,Markieff,,,Morris,F,"{'id': 16, 'abbreviation': 'MIA', 'city': 'Miami', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Miami Heat', 'name': 'Heat'}",
+328,Marcus,6.0,9.0,Morris,F,"{'id': 13, 'abbreviation': 'LAC', 'city': 'LA', 'conference': 'West', 'division': 'Pacific', 'full_name': 'LA Clippers', 'name': 'Clippers'}",235.0
+274,Kawhi,6.0,7.0,Leonard,F,"{'id': 13, 'abbreviation': 'LAC', 'city': 'LA', 'conference': 'West', 'division': 'Pacific', 'full_name': 'LA Clippers', 'name': 'Clippers'}",230.0
+460,Nikola,7.0,0.0,Vucevic,C,"{'id': 5, 'abbreviation': 'CHI', 'city': 'Chicago', 'conference': 'East', 'division': 'Central', 'full_name': 'Chicago Bulls', 'name': 'Bulls'}",260.0
+200,Tobias,6.0,9.0,Harris,F,"{'id': 23, 'abbreviation': 'PHI', 'city': 'Philadelphia', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Philadelphia 76ers', 'name': '76ers'}",235.0
+236,Reggie,6.0,3.0,Jackson,G,"{'id': 13, 'abbreviation': 'LAC', 'city': 'LA', 'conference': 'West', 'division': 'Pacific', 'full_name': 'LA Clippers', 'name': 'Clippers'}",208.0
+251,Cory,6.0,3.0,Joseph,G,"{'id': 9, 'abbreviation': 'DET', 'city': 'Detroit', 'conference': 'East', 'division': 'Central', 'full_name': 'Detroit Pistons', 'name': 'Pistons'}",193.0
+79,Jimmy,6.0,8.0,Butler,G-F,"{'id': 16, 'abbreviation': 'MIA', 'city': 'Miami', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Miami Heat', 'name': 'Heat'}",232.0
+54,Bojan,6.0,8.0,Bogdanovic,F,"{'id': 29, 'abbreviation': 'UTA', 'city': 'Utah', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Utah Jazz', 'name': 'Jazz'}",216.0
+44,Davis,6.0,10.0,Bertans,F,"{'id': 7, 'abbreviation': 'DAL', 'city': 'Dallas', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Dallas Mavericks', 'name': 'Mavericks'}",225.0
+117,Anthony,6.0,10.0,Davis,F-C,"{'id': 14, 'abbreviation': 'LAL', 'city': 'Los Angeles', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Los Angeles Lakers', 'name': 'Lakers'}",253.0
+37,Bradley,6.0,5.0,Beal,G,"{'id': 30, 'abbreviation': 'WAS', 'city': 'Washington', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Washington Wizards', 'name': 'Wizards'}",207.0
+207,Willy,6.0,11.0,Hernangomez,C,"{'id': 19, 'abbreviation': 'NOP', 'city': 'New Orleans', 'conference': 'West', 'division': 'Southwest', 'full_name': 'New Orleans Pelicans', 'name': 'Pelicans'}",240.0
+391,Josh,6.0,6.0,Richardson,G-F,"{'id': 27, 'abbreviation': 'SAS', 'city': 'San Antonio', 'conference': 'West', 'division': 'Southwest', 'full_name': 'San Antonio Spurs', 'name': 'Spurs'}",200.0
+340,Larry,6.0,9.0,Nance Jr.,F,"{'id': 19, 'abbreviation': 'NOP', 'city': 'New Orleans', 'conference': 'West', 'division': 'Southwest', 'full_name': 'New Orleans Pelicans', 'name': 'Pelicans'}",230.0
+17895769,Keifer,,,Sykes,G,"{'id': 12, 'abbreviation': 'IND', 'city': 'Indiana', 'conference': 'East', 'division': 'Central', 'full_name': 'Indiana Pacers', 'name': 'Pacers'}",
+351,Royce,6.0,6.0,O'Neale,F,"{'id': 29, 'abbreviation': 'UTA', 'city': 'Utah', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Utah Jazz', 'name': 'Jazz'}",226.0
+3547262,Jahmi'us,,,Ramsey,G,"{'id': 26, 'abbreviation': 'SAC', 'city': 'Sacramento', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Sacramento Kings', 'name': 'Kings'}",
+359,Cedi,6.0,8.0,Osman,F,"{'id': 6, 'abbreviation': 'CLE', 'city': 'Cleveland', 'conference': 'East', 'division': 'Central', 'full_name': 'Cleveland Cavaliers', 'name': 'Cavaliers'}",215.0
+296,Boban,7.0,3.0,Marjanovic,C,"{'id': 7, 'abbreviation': 'DAL', 'city': 'Dallas', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Dallas Mavericks', 'name': 'Mavericks'}",290.0
+21,D.J.,6.0,0.0,Augustin,G,"{'id': 14, 'abbreviation': 'LAL', 'city': 'Los Angeles', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Los Angeles Lakers', 'name': 'Lakers'}",183.0
+283,Brook,7.0,0.0,Lopez,C,"{'id': 17, 'abbreviation': 'MIL', 'city': 'Milwaukee', 'conference': 'East', 'division': 'Central', 'full_name': 'Milwaukee Bucks', 'name': 'Bucks'}",270.0
+1801,Mario,,,Chalmers,G,"{'id': 16, 'abbreviation': 'MIA', 'city': 'Miami', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Miami Heat', 'name': 'Heat'}",

@@ -1,0 +1,26 @@
+id,first_name,height_feet,height_inches,last_name,position,team,weight_pounds
+63,Isaiah,6.0,3.0,Briscoe,G,"{'id': 22, 'abbreviation': 'ORL', 'city': 'Orlando', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Orlando Magic', 'name': 'Magic'}",215.0
+82,Isaiah,6.0,0.0,Canaan,G,"{'id': 18, 'abbreviation': 'MIN', 'city': 'Minnesota', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Minnesota Timberwolves', 'name': 'Timberwolves'}",200.0
+93,Tyler,6.0,9.0,Cavanaugh,F,"{'id': 29, 'abbreviation': 'UTA', 'city': 'Utah', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Utah Jazz', 'name': 'Jazz'}",238.0
+2205,Jawun,6.0,0.0,Evans,,"{'id': 21, 'abbreviation': 'OKC', 'city': 'Oklahoma City', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Oklahoma City Thunder', 'name': 'Thunder'}",190.0
+155,Raymond,6.0,1.0,Felton,G,"{'id': 21, 'abbreviation': 'OKC', 'city': 'Oklahoma City', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Oklahoma City Thunder', 'name': 'Thunder'}",205.0
+2229,Walter,,,Lemon Jr.,,"{'id': 5, 'abbreviation': 'CHI', 'city': 'Chicago', 'conference': 'East', 'division': 'Central', 'full_name': 'Chicago Bulls', 'name': 'Bulls'}",
+276,Jon,6.0,10.0,Leuer,F,"{'id': 9, 'abbreviation': 'DET', 'city': 'Detroit', 'conference': 'East', 'division': 'Central', 'full_name': 'Detroit Pistons', 'name': 'Pistons'}",228.0
+279,Jeremy,6.0,3.0,Lin,G,"{'id': 28, 'abbreviation': 'TOR', 'city': 'Toronto', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Toronto Raptors', 'name': 'Raptors'}",200.0
+280,Shaun,6.0,7.0,Livingston,G,"{'id': 10, 'abbreviation': 'GSW', 'city': 'Golden State', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Golden State Warriors', 'name': 'Warriors'}",192.0
+150,Tyreke,6.0,6.0,Evans,G,"{'id': 12, 'abbreviation': 'IND', 'city': 'Indiana', 'conference': 'East', 'division': 'Central', 'full_name': 'Indiana Pacers', 'name': 'Pacers'}",220.0
+287,Jordan,6.0,4.0,Loyd,G,"{'id': 28, 'abbreviation': 'TOR', 'city': 'Toronto', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Toronto Raptors', 'name': 'Raptors'}",210.0
+2100,Kalin,6.0,1.0,Lucas,,"{'id': 9, 'abbreviation': 'DET', 'city': 'Detroit', 'conference': 'East', 'division': 'Central', 'full_name': 'Detroit Pistons', 'name': 'Pistons'}",195.0
+113,Dante,6.0,8.0,Cunningham,F,"{'id': 27, 'abbreviation': 'SAS', 'city': 'San Antonio', 'conference': 'West', 'division': 'Southwest', 'full_name': 'San Antonio Spurs', 'name': 'Spurs'}",230.0
+122,Angel,6.0,10.0,Delgado,C,"{'id': 13, 'abbreviation': 'LAC', 'city': 'LA', 'conference': 'West', 'division': 'Pacific', 'full_name': 'LA Clippers', 'name': 'Clippers'}",245.0
+124,Luol,6.0,9.0,Deng,F,"{'id': 18, 'abbreviation': 'MIN', 'city': 'Minnesota', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Minnesota Timberwolves', 'name': 'Timberwolves'}",237.0
+133,Tyler,6.0,5.0,Dorsey,G,"{'id': 15, 'abbreviation': 'MEM', 'city': 'Memphis', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Memphis Grizzlies', 'name': 'Grizzlies'}",183.0
+141,Trevon,6.0,2.0,Duval,G,"{'id': 11, 'abbreviation': 'HOU', 'city': 'Houston', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Houston Rockets', 'name': 'Rockets'}",189.0
+142,Vincent,6.0,8.0,Edwards,F,"{'id': 11, 'abbreviation': 'HOU', 'city': 'Houston', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Houston Rockets', 'name': 'Rockets'}",225.0
+2162,Deyonta,,,Davis,,"{'id': 1, 'abbreviation': 'ATL', 'city': 'Atlanta', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Atlanta Hawks', 'name': 'Hawks'}",
+80,Jose,6.0,3.0,Calderon,G,"{'id': 9, 'abbreviation': 'DET', 'city': 'Detroit', 'conference': 'East', 'division': 'Central', 'full_name': 'Detroit Pistons', 'name': 'Pistons'}",200.0
+50191,Bonzie,6.0,6.0,Colson,F,"{'id': 17, 'abbreviation': 'MIL', 'city': 'Milwaukee', 'conference': 'East', 'division': 'Central', 'full_name': 'Milwaukee Bucks', 'name': 'Bucks'}",225.0
+423,Jason,7.0,0.0,Smith,F-C,"{'id': 19, 'abbreviation': 'NOP', 'city': 'New Orleans', 'conference': 'West', 'division': 'Southwest', 'full_name': 'New Orleans Pelicans', 'name': 'Pelicans'}",240.0
+34,Jerryd,6.0,3.0,Bayless,G,"{'id': 18, 'abbreviation': 'MIN', 'city': 'Minnesota', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Minnesota Timberwolves', 'name': 'Timberwolves'}",200.0
+99,Ian,6.0,3.0,Clark,G,"{'id': 19, 'abbreviation': 'NOP', 'city': 'New Orleans', 'conference': 'West', 'division': 'Southwest', 'full_name': 'New Orleans Pelicans', 'name': 'Pelicans'}",175.0
+1938,Jimmer,,,Fredette,,"{'id': 24, 'abbreviation': 'PHX', 'city': 'Phoenix', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Phoenix Suns', 'name': 'Suns'}",

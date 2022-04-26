@@ -1,0 +1,23 @@
+[2022-03-25 14:09:24,143] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: game_processing.load_games_sql 2022-03-25T13:50:37.502617+00:00 [queued]>
+[2022-03-25 14:09:24,149] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: game_processing.load_games_sql 2022-03-25T13:50:37.502617+00:00 [queued]>
+[2022-03-25 14:09:24,150] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-25 14:09:24,150] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2022-03-25 14:09:24,150] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-25 14:09:24,158] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): load_games_sql> on 2022-03-25T13:50:37.502617+00:00
+[2022-03-25 14:09:24,161] {standard_task_runner.py:52} INFO - Started process 8247 to run task
+[2022-03-25 14:09:24,165] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'game_processing', 'load_games_sql', '2022-03-25T13:50:37.502617+00:00', '--job-id', '41', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/game_processing.py', '--cfg-path', '/tmp/tmp00ko_rm8', '--error-file', '/tmp/tmpw7tzo1nc']
+[2022-03-25 14:09:24,165] {standard_task_runner.py:77} INFO - Job 41: Subtask load_games_sql
+[2022-03-25 14:09:24,191] {logging_mixin.py:104} INFO - Running <TaskInstance: game_processing.load_games_sql 2022-03-25T13:50:37.502617+00:00 [running]> on host ip-172-31-44-46.us-east-2.compute.internal
+[2022-03-25 14:09:24,221] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jarred.armijo@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=game_processing
+AIRFLOW_CTX_TASK_ID=load_games_sql
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-25T13:50:37.502617+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-25T13:50:37.502617+00:00
+[2022-03-25 14:09:24,244] {python.py:151} INFO - Done. Returned value was: None
+[2022-03-25 14:09:24,247] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=game_processing, task_id=load_games_sql, execution_date=20220325T135037, start_date=20220325T140924, end_date=20220325T140924
+[2022-03-25 14:09:24,267] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-25 14:09:24,296] {local_task_job.py:151} INFO - Task exited with return code 0

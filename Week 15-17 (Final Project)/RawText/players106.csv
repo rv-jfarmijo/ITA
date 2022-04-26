@@ -1,0 +1,26 @@
+id,first_name,height_feet,height_inches,last_name,position,team,weight_pounds
+103,Darren,6.0,0.0,Collison,G,"{'id': 14, 'abbreviation': 'LAL', 'city': 'Los Angeles', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Los Angeles Lakers', 'name': 'Lakers'}",175.0
+311,Jodie,,,Meeks,G,"{'id': 28, 'abbreviation': 'TOR', 'city': 'Toronto', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Toronto Raptors', 'name': 'Raptors'}",
+312,Salah,,,Mejri,C,"{'id': 7, 'abbreviation': 'DAL', 'city': 'Dallas', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Dallas Mavericks', 'name': 'Mavericks'}",
+461,Dwyane,6.0,4.0,Wade,G,"{'id': 16, 'abbreviation': 'MIA', 'city': 'Miami', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Miami Heat', 'name': 'Heat'}",220.0
+2160,Isaiah,6.0,4.0,Whitehead,,"{'id': 9, 'abbreviation': 'DET', 'city': 'Detroit', 'conference': 'East', 'division': 'Central', 'full_name': 'Detroit Pistons', 'name': 'Pistons'}",213.0
+477,Alan,6.0,8.0,Williams,F-C,"{'id': 3, 'abbreviation': 'BKN', 'city': 'Brooklyn', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Brooklyn Nets', 'name': 'Nets'}",265.0
+483,Troy,6.0,7.0,Williams,F,"{'id': 26, 'abbreviation': 'SAC', 'city': 'Sacramento', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Sacramento Kings', 'name': 'Kings'}",218.0
+3450,Deng,6.0,7.0,Adel,,"{'id': 3, 'abbreviation': 'BKN', 'city': 'Brooklyn', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Brooklyn Nets', 'name': 'Nets'}",200.0
+17895956,Tyrique,,,Jones,F-C,"{'id': 24, 'abbreviation': 'PHX', 'city': 'Phoenix', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Phoenix Suns', 'name': 'Suns'}",
+17896105,Matt,,,Coleman III,G,"{'id': 26, 'abbreviation': 'SAC', 'city': 'Sacramento', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Sacramento Kings', 'name': 'Kings'}",
+367,Chris,6.0,0.0,Paul,G,"{'id': 24, 'abbreviation': 'PHX', 'city': 'Phoenix', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Phoenix Suns', 'name': 'Suns'}",175.0
+2048,Anthony,,,Bennett,,"{'id': 11, 'abbreviation': 'HOU', 'city': 'Houston', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Houston Rockets', 'name': 'Rockets'}",
+1891701,Eric,,,Mika,C-F,"{'id': 26, 'abbreviation': 'SAC', 'city': 'Sacramento', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Sacramento Kings', 'name': 'Kings'}",
+666438,Javon,,,Bess,G,"{'id': 19, 'abbreviation': 'NOP', 'city': 'New Orleans', 'conference': 'West', 'division': 'Southwest', 'full_name': 'New Orleans Pelicans', 'name': 'Pelicans'}",
+666440,Kavell,,,Bigby-Williams,C,"{'id': 19, 'abbreviation': 'NOP', 'city': 'New Orleans', 'conference': 'West', 'division': 'Southwest', 'full_name': 'New Orleans Pelicans', 'name': 'Pelicans'}",
+415,Iman,6.0,5.0,Shumpert,G,"{'id': 3, 'abbreviation': 'BKN', 'city': 'Brooklyn', 'conference': 'East', 'division': 'Atlantic', 'full_name': 'Brooklyn Nets', 'name': 'Nets'}",215.0
+3090,Jaron,6.0,8.0,Blossomgame,,"{'id': 11, 'abbreviation': 'HOU', 'city': 'Houston', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Houston Rockets', 'name': 'Rockets'}",220.0
+666457,Phil,,,Booth,G,"{'id': 30, 'abbreviation': 'WAS', 'city': 'Washington', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Washington Wizards', 'name': 'Wizards'}",
+1936,Jeremy,,,Pargo,,"{'id': 10, 'abbreviation': 'GSW', 'city': 'Golden State', 'conference': 'West', 'division': 'Pacific', 'full_name': 'Golden State Warriors', 'name': 'Warriors'}",
+17895754,Tyree,,,White,F,"{'id': 17, 'abbreviation': 'MIL', 'city': 'Milwaukee', 'conference': 'East', 'division': 'Central', 'full_name': 'Milwaukee Bucks', 'name': 'Bucks'}",
+2116373,Dusty,,,Hannahs,G,"{'id': 15, 'abbreviation': 'MEM', 'city': 'Memphis', 'conference': 'West', 'division': 'Southwest', 'full_name': 'Memphis Grizzlies', 'name': 'Grizzlies'}",
+2106,Eric,,,Moreland,,"{'id': 1, 'abbreviation': 'ATL', 'city': 'Atlanta', 'conference': 'East', 'division': 'Southeast', 'full_name': 'Atlanta Hawks', 'name': 'Hawks'}",
+298,Jarell,6.0,10.0,Martin,F,"{'id': 29, 'abbreviation': 'UTA', 'city': 'Utah', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Utah Jazz', 'name': 'Jazz'}",239.0
+666488,Perrion,,,Callandret,G,"{'id': 5, 'abbreviation': 'CHI', 'city': 'Chicago', 'conference': 'East', 'division': 'Central', 'full_name': 'Chicago Bulls', 'name': 'Bulls'}",
+92,Troy,6.0,4.0,Caupain,G,"{'id': 25, 'abbreviation': 'POR', 'city': 'Portland', 'conference': 'West', 'division': 'Northwest', 'full_name': 'Portland Trail Blazers', 'name': 'Trail Blazers'}",210.0

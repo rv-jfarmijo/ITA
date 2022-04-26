@@ -1,0 +1,23 @@
+[2022-03-24 22:42:01,771] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: xcom_dag.training_model_C 2022-03-24T22:39:24.464369+00:00 [queued]>
+[2022-03-24 22:42:01,777] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: xcom_dag.training_model_C 2022-03-24T22:39:24.464369+00:00 [queued]>
+[2022-03-24 22:42:01,778] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-24 22:42:01,778] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-03-24 22:42:01,778] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-24 22:42:01,787] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): training_model_C> on 2022-03-24T22:39:24.464369+00:00
+[2022-03-24 22:42:01,789] {standard_task_runner.py:52} INFO - Started process 5778 to run task
+[2022-03-24 22:42:01,798] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_dag', 'training_model_C', '2022-03-24T22:39:24.464369+00:00', '--job-id', '12', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmpgjiz1owg', '--error-file', '/tmp/tmpt_ll_yvf']
+[2022-03-24 22:42:01,799] {standard_task_runner.py:77} INFO - Job 12: Subtask training_model_C
+[2022-03-24 22:42:01,831] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom_dag.training_model_C 2022-03-24T22:39:24.464369+00:00 [running]> on host ip-172-31-44-46.us-east-2.compute.internal
+[2022-03-24 22:42:01,893] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=training_model_C
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-24T22:39:24.464369+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-24T22:39:24.464369+00:00
+[2022-03-24 22:42:01,893] {logging_mixin.py:104} INFO - model's accuracy: 9.24419518406917
+[2022-03-24 22:42:01,894] {python.py:151} INFO - Done. Returned value was: None
+[2022-03-24 22:42:01,897] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=training_model_C, execution_date=20220324T223924, start_date=20220324T224201, end_date=20220324T224201
+[2022-03-24 22:42:01,924] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-24 22:42:01,965] {local_task_job.py:151} INFO - Task exited with return code 0

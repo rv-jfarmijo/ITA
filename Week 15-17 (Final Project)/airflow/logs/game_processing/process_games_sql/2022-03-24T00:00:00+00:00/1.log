@@ -1,0 +1,76 @@
+[2022-03-25 02:19:19,694] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: game_processing.process_games_sql 2022-03-24T00:00:00+00:00 [queued]>
+[2022-03-25 02:19:19,701] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: game_processing.process_games_sql 2022-03-24T00:00:00+00:00 [queued]>
+[2022-03-25 02:19:19,701] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-25 02:19:19,701] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2022-03-25 02:19:19,701] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-25 02:19:19,710] {taskinstance.py:1087} INFO - Executing <Task(SqliteOperator): process_games_sql> on 2022-03-24T00:00:00+00:00
+[2022-03-25 02:19:19,712] {standard_task_runner.py:52} INFO - Started process 17039 to run task
+[2022-03-25 02:19:19,716] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'game_processing', 'process_games_sql', '2022-03-24T00:00:00+00:00', '--job-id', '37', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/game_processing.py', '--cfg-path', '/tmp/tmpfl7pwrjc', '--error-file', '/tmp/tmpm2u852n_']
+[2022-03-25 02:19:19,717] {standard_task_runner.py:77} INFO - Job 37: Subtask process_games_sql
+[2022-03-25 02:19:19,744] {logging_mixin.py:104} INFO - Running <TaskInstance: game_processing.process_games_sql 2022-03-24T00:00:00+00:00 [running]> on host ip-172-31-44-46.us-east-2.compute.internal
+[2022-03-25 02:19:19,775] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=jarred.armijo@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=game_processing
+AIRFLOW_CTX_TASK_ID=process_games_sql
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-24T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-24T00:00:00+00:00
+[2022-03-25 02:19:19,776] {sqlite.py:63} INFO - Executing: 
+        insert into games(date, HomeTeamID, HomeTeamPoints, AwayTeamID, AwayTeamPoints, Attendance, arena)
+        select a.date, coalesce(b.TeamID, f.TeamID) as HomeTeamID, 
+            a.homescore as HomeTeamPoints, coalesce(c.TeamID, i.TeamID) as AwayTeamID, 
+            a.awayscore as AwayTeamPoints, a.attendance as Attendance, 
+            coalesce(d.Arena, g.Arena, j.Arena) as Arena
+        from games_load a
+        left join teams b
+        on a.hometeam = b.City
+        left join teams c
+        on a.awayteam = c.City
+        left join arena d
+        on b.City = d.City
+        left join City_Team_join e
+        on a.hometeam = e.gin
+        left join teams f
+        on e.gout = f.TeamName
+        left join arena g
+        on f.City = g.City
+        left join City_Team_join h
+        on a.awayteam = h.gin
+        left join teams i
+        on h.gout = i.TeamName
+        left join arena j
+        on i.City = j.City;
+        
+[2022-03-25 02:19:19,779] {base.py:78} INFO - Using connection to: id: db_sqlite. Host: /home/ec2-user/airflow/airflow.db, Port: None, Schema: , Login: , Password: None, extra: {}
+[2022-03-25 02:19:19,779] {dbapi.py:204} INFO - Running statement: 
+        insert into games(date, HomeTeamID, HomeTeamPoints, AwayTeamID, AwayTeamPoints, Attendance, arena)
+        select a.date, coalesce(b.TeamID, f.TeamID) as HomeTeamID, 
+            a.homescore as HomeTeamPoints, coalesce(c.TeamID, i.TeamID) as AwayTeamID, 
+            a.awayscore as AwayTeamPoints, a.attendance as Attendance, 
+            coalesce(d.Arena, g.Arena, j.Arena) as Arena
+        from games_load a
+        left join teams b
+        on a.hometeam = b.City
+        left join teams c
+        on a.awayteam = c.City
+        left join arena d
+        on b.City = d.City
+        left join City_Team_join e
+        on a.hometeam = e.gin
+        left join teams f
+        on e.gout = f.TeamName
+        left join arena g
+        on f.City = g.City
+        left join City_Team_join h
+        on a.awayteam = h.gin
+        left join teams i
+        on h.gout = i.TeamName
+        left join arena j
+        on i.City = j.City;
+        , parameters: []
+[2022-03-25 02:19:19,780] {dbapi.py:212} INFO - Rows affected: 11
+[2022-03-25 02:19:19,787] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=game_processing, task_id=process_games_sql, execution_date=20220324T000000, start_date=20220325T021919, end_date=20220325T021919
+[2022-03-25 02:19:19,801] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-25 02:19:19,807] {local_task_job.py:151} INFO - Task exited with return code 0
